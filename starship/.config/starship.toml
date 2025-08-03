@@ -1,0 +1,24 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$git_state\
+$line_break\
+$character"""
+
+[shell]
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "[$ssh_symbol$hostname]($style) in "
+
+[username]
+show_always = true
+format = "[$user]($style)@"
