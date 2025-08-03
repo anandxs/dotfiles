@@ -1,0 +1,9 @@
+{
+    "window.commandCenter": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ]
+}
